@@ -1,0 +1,25 @@
+//  {
+//       "img": "",
+//       "transactionName": "",
+//       "transactionType": "",
+//       "transactionAmount": "",
+//       "transtionDirection": "",
+//       "transactionDate": "",
+//       "transactionCategory": ""
+//     }
+
+//     {
+//       "budget": "",
+//       "budgetMax": "",
+//       "spent": "",
+//       "remaining": "",
+//       "colorCode": ""
+//     }
+
+
+// if errors is empty you can submit
+  // check budget data to see if the category already matches if it does tell the user to choose another empty category
+  ,
+
+
+                        

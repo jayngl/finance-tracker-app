@@ -1,0 +1,162 @@
+{
+  "Transactions": [
+    {
+      "id": "16de",
+      "category": "Dining out",
+      "entity": "KFC",
+      "amount": -1000,
+      "type": "sent",
+      "date": "7/16/2025"
+    },
+    {
+      "id": "0742",
+      "category": "Personal Care",
+      "entity": "Parents",
+      "amount": 10000,
+      "type": "recieved",
+      "date": "7/16/2025"
+    },
+    {
+      "id": "532d",
+      "category": "Entertainment",
+      "entity": "Netflix",
+      "amount": -1500,
+      "type": "sent",
+      "date": "7/16/2025"
+    },
+    {
+      "id": "d62f",
+      "category": "General",
+      "entity": "work",
+      "amount": 3000,
+      "type": "recieved",
+      "date": "7/16/2025"
+    },
+    {
+      "id": "eaff",
+      "category": "Entertainment",
+      "entity": "Amazon prime",
+      "amount": -12,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "e448",
+      "category": "Groceries",
+      "entity": "Fruits",
+      "amount": -10,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "1e26",
+      "category": "Groceries",
+      "entity": "cheese",
+      "amount": -5,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "5e00",
+      "category": "Bills",
+      "entity": "Light",
+      "amount": -200,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "1a3e",
+      "category": "Shopping",
+      "entity": "lululemon",
+      "amount": -100,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "de7b",
+      "category": "Lifestyle",
+      "entity": "Beach trip",
+      "amount": -1000,
+      "type": "sent",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "4d2b",
+      "category": "General",
+      "entity": "work",
+      "amount": 3000,
+      "type": "recieved",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "dcbc",
+      "category": "General",
+      "entity": "Parents",
+      "amount": 3000,
+      "type": "recieved",
+      "date": "7/17/2025"
+    },
+    {
+      "id": "0008",
+      "category": "Education",
+      "entity": "Parents",
+      "amount": 30000,
+      "type": "recieved",
+      "date": "7/19/2025"
+    },
+    {
+      "id": "4e0b",
+      "category": "Transportation",
+      "entity": "Taxi",
+      "amount": -300,
+      "type": "sent",
+      "date": "7/20/2025"
+    }
+  ],
+  "Budgets": [
+    {
+      "id": "9147",
+      "budgetCategory": "General",
+      "maxSpend": "500",
+      "colorCode": "green"
+    },
+    {
+      "id": "549e",
+      "budgetCategory": "Groceries",
+      "maxSpend": "200",
+      "colorCode": "blue"
+    },
+    {
+      "id": "ad55",
+      "budgetCategory": "Transportation",
+      "maxSpend": "300",
+      "colorCode": "yellow"
+    }
+  ],
+  "Pots": [
+    {
+      "id": "5014",
+      "potName": "vacation",
+      "target": "2000",
+      "colorCode": "green",
+      "amountSaved": 0
+    },
+    {
+      "id": "7b63",
+      "potName": "new laptop",
+      "target": "10000",
+      "colorCode": "blue",
+      "amountSaved": 0
+    }
+  ],
+  "RecurringBills": [
+    {
+      "billName": "",
+      "dueDate": "",
+      "billAmount": "",
+      "isPaid": "",
+      "colorCode": "",
+      "id": "9d64"
+    }
+  ]
+}
