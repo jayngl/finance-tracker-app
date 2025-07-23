@@ -95,6 +95,59 @@ const useCRUD = () => {
     }
   };
 
+  const putPotAmount = async (upDatedData) => {
+    try {
+      const res = await axios({
+        method: "patch",
+        url: `/api/Pots/${upDatedData.id}`,
+        data: { amountSaved: upDatedData.amountSaved },
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const withDrawFromPot = async (upDatedAmount) => {
+    try {
+      const res = await axios({
+        method: "patch",
+        url: `/api/Pots/${upDatedAmount.id}`,
+        data: { amountSaved: upDatedAmount.amountSaved },
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const deletePot = async (potId) => {
+    try {
+      const res = await axios({
+        method: "delete",
+        url: `/api/Pots/${potId}`,
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const editPot = async (newPotData) => {
+    try {
+      const res = await axios({
+        method: "put",
+        url: `/api/Pots/${newPotData.id}`,
+        data: {
+          id: newPotData.id,
+          potName: newPotData.potName,
+          target: newPotData.target,
+          colorCode: newPotData.colorCode,
+          amountSaved: newPotData.amountSaved,
+        },
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   useEffect(() => {
     fetchBudgetData();
     fetchTransactionData();
@@ -112,6 +165,10 @@ const useCRUD = () => {
     postPotsData,
     PotsData,
     isPotsLoading,
+    putPotAmount,
+    withDrawFromPot,
+    deletePot,
+    editPot,
   };
 };
 

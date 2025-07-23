@@ -13,7 +13,7 @@ const DetailsCard = ({
       ></div>
       <div className="ml-3 w-full">
         <h1 className="text-gray text-[.9rem] mb-1 ">{title}</h1>
-        <h3 className="font-bold text-[1.1rem]">{money}</h3>
+        <h3 className="font-bold text-[1.1rem]">${money}</h3>
       </div>
     </div>
   );

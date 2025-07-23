@@ -6,7 +6,7 @@ import {
 } from "react-icons/tb";
 
 const Header = () => {
-  const [sidebarIsToggled, setSidebarIsToggled] = useState(false);
+  const [sidebarIsToggled, setSidebarIsToggled] = useState(true);
   return (
     <nav
       className={`relative bg-main-accent-dark text-white lg:min-h-screen  min-h-[5rem]  ${

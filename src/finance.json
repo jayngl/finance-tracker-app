@@ -135,18 +135,32 @@
   ],
   "Pots": [
     {
-      "id": "5014",
-      "potName": "vacation",
+      "id": "1dea",
+      "potName": "Shoes",
       "target": "2000",
       "colorCode": "green",
-      "amountSaved": 0
+      "amountSaved": 200
     },
     {
-      "id": "7b63",
-      "potName": "new laptop",
-      "target": "10000",
+      "id": "925e",
+      "potName": "Savings",
+      "target": "300",
       "colorCode": "blue",
-      "amountSaved": 0
+      "amountSaved": 200
+    },
+    {
+      "id": "2713",
+      "potName": "Vacation",
+      "target": "2000",
+      "colorCode": "yellow",
+      "amountSaved": 400
+    },
+    {
+      "id": "85ef",
+      "potName": "New laptop",
+      "target": "3000",
+      "colorCode": "gray",
+      "amountSaved": 1000
     }
   ],
   "RecurringBills": [

@@ -50,7 +50,7 @@ const NavElement = ({ title, to, isToggled = false }) => {
         <h1
           className={`hidden md:block ${
             isToggled ? "lg:hidden" : "lg:block"
-          } font-bold ml-3 text-[clamp(1.1rem,3vw,1.4)]`}
+          } font-bold ml-3 text-[clamp(.8rem,3vw,.9rem)] whitespace-nowrap`}
         >
           {title}
         </h1>
